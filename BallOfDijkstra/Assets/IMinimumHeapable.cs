@@ -1,0 +1,5 @@
+﻿interface IMinimumHeapable
+{
+    float getElementValue();    
+}
+
