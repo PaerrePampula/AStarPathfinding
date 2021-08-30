@@ -30,7 +30,6 @@ using UnityEngine;
 ///     
 /// A* is a bit different as it uses heuristics to optimize the pathfinding a bit. Instead of just looking at what cost it takes to reach any random point nearby, a predictive calculation to the target is 
 /// made using distance. For this algorithm, we will use manhattan distance as a heuristical cost. (described in the record class)
-/// This algorithm could be improved by preventing the agent from traveling diagonally through obstacles.
 /// </summary>
 public class PathFinding : MonoBehaviour
 {
